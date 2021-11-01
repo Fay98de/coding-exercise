@@ -8,7 +8,6 @@ class Scheduler {
   limit: number = 0
   concurrent: number = 0
   queue: TaskItem[] = []
-  processTasks: TaskItem[] = []
 
   constructor(limit: number) {
     this.limit = limit
